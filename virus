@@ -1,0 +1,1 @@
+x=msgbox("VIRUS DETECTED",1+48,"VIRUS ALERT!!!!!")
