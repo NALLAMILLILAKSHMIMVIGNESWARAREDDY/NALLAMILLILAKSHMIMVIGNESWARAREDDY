@@ -18,3 +18,13 @@ fclose(fp1);
 return (0);
 
 }
+/*[21MH1A0542@localhost ~]$ vi copying.c
+[21MH1A0542@localhost ~]$ cc copying.c
+[21MH1A0542@localhost ~]$ ./a.out
+Segmentation fault (core dumped)
+[21MH1A0542@localhost ~]$ ./a.out  1 3
+[21MH1A0542@localhost ~]$ cat 1
+okjwvheoivhoifev
+[21MH1A0542@localhost ~]$ cat 3
+okjwvheoivhoifev
+/*
