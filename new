@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+template<class T>
+void bsort(T a[],int n)
+{
+	int i,j,k;
+	T temp;
+	for(i=0;i<n-1;i++)
+	{
+		cout<<"\npass"<<(i+1)<<"\n";
+		for(j=0;j<n-1;j++)
+		{
+			if(a[j]>a[j+1])
+			{
+				temp=a[j];
+				a[j]=a[j+1];
+				a[j+1]=temp;
+			}
+		}
+			for(k=0;k<6;k++)
+	cout<<a[k]<<" ";
+	
+	}
+
+	
+}
+int main()
+{
+	int i;
+	int a[6]={5,1,3,9,2,4};
+	cout<<"\nbefore arranging";
+	for(i=0;i<6;i++)
+	cout<<a[i]<<" ";
+	bsort(a,6);
+	cout<<"\nafter arranging";
+	for(i=0;i<6;i++)
+	cout<<a[i]<<" ";
+	double b[6]={5.2,1.4,3.6,9.9,2.1,4.3};
+	cout<<"\nbefore arranging";
+	for(i=0;i<6;i++)
+	cout<<b[i]<<" ";
+	bsort(b,6);
+	cout<<"\nafter arranging";
+	for(i=0;i<6;i++)
+	cout<<b[i]<<" ";
+	return 0;
+}
