@@ -1,0 +1,11 @@
+df=data.frame(names=c("Siva","yuva","Viggu","Pradeep","Zabee"),rno=c("C4","D9","42","C0","C8"),id=c(1,2,3,4,5),vil=c("rvm","kpm","mmd","kkd","anp"),marks=c(500,200,600,420,80))
+df
+b=c("Swamy","L10",6,"kkd",690)
+b
+df=rbind(df,b)
+df
+backs=c(0,1,0,2,3,1)
+df=cbind(df,backs)
+df[3,]
+df[-c(6),]
+df[-c(4)]
