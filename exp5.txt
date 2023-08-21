@@ -1,0 +1,32 @@
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ git commit -m "Performing Commit 002"
+On branch master
+nothing to commit, working tree clean
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ git reset --soft HEAD
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ git reset HEAD
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$ ls
+ Helloworld.class   Helloworld.java  'Read me.txt'
+
+INTERNET@DESKTOP-N4EBGCR MINGW64 ~/desktop/542 (master)
+$
